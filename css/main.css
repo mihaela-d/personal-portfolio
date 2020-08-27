@@ -1,0 +1,251 @@
+
+/***** BASE STYLES *****/
+
+body {
+	font-family: Merriweather, sans-serif;
+	color: #2b2b2b;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: auto;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+ .half-width {
+    width: 50%;
+    float: left;
+}
+
+
+/***** HEADER *****/
+
+header {
+    /*background-color: #040904; */
+    height: 700px;
+    background-image: url("../img/london.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 { 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color:#040904;
+    padding-top: 24px;
+    padding-left: 48px;
+}
+
+nav {
+    float: right; 
+    padding: 24px 48px 0px 24px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #040904;
+    padding-left: 20px; 
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+header h2 {
+    /*width: 1000px;*/
+    clear: left;
+    font-family: Merriweather,sans-serif;
+    font-size: 72px;
+    color: #040904;
+    padding: 100px 80px 0px 45px;
+    word-spacing: 4px;
+}
+
+header h2 span {
+    color: #fa0075;
+    word-spacing: 4px;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+header p{
+    font-family: Merriweather,sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    padding: 15px 100px 0px 45px;
+    word-spacing: 4px;
+    background-color: black;
+    opacity: 0.85;
+}
+
+
+/***** WORK *****/
+
+#portfolio {
+	background-color: #fff; 
+	text-align: center;
+}
+
+
+#portfolio .full-width {
+    padding: 80px 0;
+}
+
+#portfolio h2 {
+    color: #fa0075;
+    word-spacing: 4px;
+    padding-bottom: 70px;
+ /*   clear: both;*/
+    font-family: Merriweather,sans-serif;
+    font-size: 48px;
+    
+}
+ 
+#portfolio img {
+    padding: 30px;
+    width: 90%;
+}
+
+
+#portfolio h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: auto;
+    margin: 0 auto;
+    color: #040904;
+    padding-top: 48px;
+}
+ 
+#portfolio p {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0px 50px;
+    text-align: justify;
+ /*   color: #040904;*/
+}
+#portfolio a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fa0075;
+}
+
+/***** ABOUT *****/
+
+#about {
+   /* height: 1200px;*/
+    background-image: url("../img/about-me.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#about .full-width {
+    padding: 2em 2em;
+}
+ 
+#about h2 {
+    text-align: center;
+    color: #fa0075;
+    word-spacing: 4px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: Merriweather,sans-serif;
+    font-size: 48px;   
+}
+ 
+#about p {
+    font-family: Montserrat, serif;
+    font-size: 24px;
+    line-height: 48px;
+    padding: 1em 2em 3em 2em;
+    text-align: justify;
+    color: #fff;
+}
+
+#about a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fa0075;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background-color: #fff
+    color: #040904;
+}
+
+#contact .full-width {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #fa0075;
+    word-spacing: 4px;
+    padding-bottom: 40px;
+    font-family: Merriweather,sans-serif;
+    font-size: 48px;
+}
+
+
+#contact h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    color: #cfd0ca;
+    text-align: center;
+}
+
+#contact h3 span {
+    color: #fa0075;
+}
+
+#contact p {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 1em;
+}
+
+
+.social {
+    margin:0px auto;
+    width:90%;
+}
+
+#contact ul {
+    list-style-type:none;
+    padding:0;
+}
+
+#contact ul li {
+    float: left;
+    width:10%;
+    display: inline-block;
+    padding: 0em 3em;
+}
+
+#contact ul img {
+    /*padding-right: 50%;*/
+    width:100%;
+}
+
+#copyright{
+    color: #fa0075;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+/***** FOOTER *****/
+
+
+
